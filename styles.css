@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    width: 600px;
+    margin:0 auto;
+    padding: 20px 20px;
+    text-align: center;
+}
+h3{
+    text-align:left;
+}
+ol {
+    margin: 0;
+}
+li {
+    margin: 0 10px;
+    text-align:left;
+}
+a {
+    color:#3cb0fd;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 10px;
+}
+.delete {
+    cursor:pointer;
+    display:inline-block;
+    border: 1px solid #c4c4c4;
+    border-radius: 50%;
+    padding:0px 4px;
+  }
+.delete:hover {
+    background: #3cb0fd;
+}
